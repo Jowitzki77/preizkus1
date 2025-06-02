@@ -35,6 +35,8 @@
 
 .header__top__logo h2{
     font-size: 25px;
+    font-family: "epilog", sans-serif;
+
 }
 
 .header__top_menu {
@@ -67,46 +69,62 @@
 
 .main__content{
     margin-left: 40px;
+
 }
 
 .main__content__heading{
     font-family: "epilog", sans-serif;
     font-size: 60px;
-    font-weight: 400;
+    font-weight: 600;
     color: var(--primary-color);
+    margin-bottom: 30px;
+
 
 }
 .main__content__subheading{
     font-family: "epilog", sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     color: var(--primary-color);
-    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .main__content__text{
     font-family: "epilog", sans-serif;
     font-size: 15px;
     margin-top: 10px;
-    font-weight: 400;
+    font-weight: 300;
+    color: var(--primary-color);
+    text-shadow: #2d2d2d40 0 3px 2px;
+
 }
 
 .main__content__buttons{
-    margin-top: 100px;
-    margin-left: 20px;
+    margin-top: 50px;
 }
 
 .main__picture{
-    margin-right: 100px;
+    margin-right: 150px;
 }
 
 .btn{
-    height: 35px;
-    width: 120px;
-    border-radius: 5px;
+    height: 60px;
+    width: 160px;
     border: none;
-    margin-left: 20px;
-    color: white;
     font-family: "epilog", sans-serif;
     font-weight: bold;
+    font-size: 16px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.footer.container{
+    max-width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
 }
